@@ -28,10 +28,15 @@ It was originally designed to auto-refresh daily using API-based connections, an
 
 Weather_Report_PowerBI/
    │ 
-   ├── Assets/  
-   │   ├── Lahore_2025-07-18.PNG  
+   
+   ├── Assets/
+   
+   │   ├── Lahore_2025-07-18.PNG 
+   
    │   └── Gilgit_2025-07-18.PNG  
+   
    │
+   
    ├── Data/ 
    
    │   ├── Current_Data.xlsx         # Current weather conditions 
@@ -41,7 +46,9 @@ Weather_Report_PowerBI/
    │   ├── Forecast_Hrs.xlsx         # Hourly forecast (not visualized)
    
    │   └── Location.xlsx             # City metadata (IDs, coords)
+   
    │ 
+   
    ├── Weather_Dashboard.pbix        # Power BI report file
    
    └── README.md                     # Project documentation
