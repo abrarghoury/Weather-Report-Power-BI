@@ -26,32 +26,27 @@ It was originally designed to auto-refresh daily using API-based connections, an
 
 📁 Project Structure
 
-Weather_Report_PowerBI/
+   📁 Weather_Report_PowerBI/
    │ 
+      📁 ├── Assets/
    
-   ├── Assets/
+            ├── Lahore_2025-07-18.PNG 
    
-   │   ├── Lahore_2025-07-18.PNG 
+            └── Gilgit_2025-07-18.PNG  
+ 
+      📁 ├── Data/ 
    
-   │   └── Gilgit_2025-07-18.PNG  
+            ├── Current_Data.xlsx         # Current weather conditions 
    
-   │
+            ├── Forecast_Day.xlsx         # 7-day forecast data
    
-   ├── Data/ 
+            ├── Forecast_Hrs.xlsx         # Hourly forecast (not visualized)
    
-   │   ├── Current_Data.xlsx         # Current weather conditions 
+            └── Location.xlsx             # City metadata (IDs, coords)
    
-   │   ├── Forecast_Day.xlsx         # 7-day forecast data
+    ├── Weather_Dashboard.pbix        # Power BI report file
    
-   │   ├── Forecast_Hrs.xlsx         # Hourly forecast (not visualized)
-   
-   │   └── Location.xlsx             # City metadata (IDs, coords)
-   
-   │ 
-   
-   ├── Weather_Dashboard.pbix        # Power BI report file
-   
-   └── README.md                     # Project documentation
+    └── README.md                     # Project documentation
 
 🧠 Features & Design Highlights
 
