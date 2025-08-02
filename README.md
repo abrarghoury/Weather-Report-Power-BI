@@ -1,9 +1,11 @@
 🌦️ Real-Time Weather Dashboard | Power BI
+
 An interactive and visually rich Power BI dashboard designed to display real-time and forecasted weather conditions for six major cities in Pakistan. Initially connected to a weather API for dynamic updates, the dashboard now uses static data (dated 18 July 2025) due to the API’s free plan expiration—common for student and personal projects.
 
 📍 Cities Covered: Karachi, Lahore, Islamabad, Quetta, Peshawar, Gilgit
 
 📊 Project Overview
+
 This dashboard tracks and visualizes:
 
 🌡️ Current temperature & conditions
@@ -40,6 +42,7 @@ Weather_Report_PowerBI/
 └── README.md                     # Project documentation
 
 🧠 Features & Design Highlights
+
 Dynamic API integration (historically enabled real-time updates).
 
 Dark-themed modern UI for readability and clarity.
@@ -55,13 +58,17 @@ Modular card visuals for temperature, wind, humidity, and visibility.
 Built-in refresh scheduling when API was live.
 
 📷 Screenshots
+
 Lahore (18 July 2025)	
+
 Gilgit (18 July 2025)
 
 🔗 Data Sources
+
 Initially powered by OpenWeatherMap API using free-tier access. Current version uses snapshot Excel files exported on 2025-07-18 due to key expiration.
 
 🔧 How to Use
+
 Clone/download the repository.
 
 Open Weather_Dashboard.pbix in Power BI Desktop.
@@ -75,6 +82,7 @@ Replace the Excel data sources with live API queries.
 Use Power Query (M) to connect and transform incoming JSON.
 
 📌 Notes
+
 The current version is static for demo and portfolio use.
 
 Forecast_Hrs.xlsx is included for completeness but not used in visuals.
@@ -88,7 +96,9 @@ Multi-country coverage
 Historical weather comparison
 
 👨‍💻 Author
+
 Abrar Shakeel
+
 Data Science & Visualization Enthusiast
 
 
