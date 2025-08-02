@@ -27,19 +27,19 @@ It was originally designed to auto-refresh daily using API-based connections, an
 📁 Project Structure
 
 Weather_Report_PowerBI/
-  │ 
-  ├── Assets/  
-  │   ├── Lahore_2025-07-18.PNG  
-  │   └── Gilgit_2025-07-18.PNG  
-  │
-  ├── Data/ 
-  │   ├── Current_Data.xlsx         # Current weather conditions 
-  │   ├── Forecast_Day.xlsx         # 7-day forecast data
-  │   ├── Forecast_Hrs.xlsx         # Hourly forecast (not visualized)
-  │   └── Location.xlsx             # City metadata (IDs, coords)
-  │ 
-  ├── Weather_Dashboard.pbix        # Power BI report file 
-  └── README.md                     # Project documentation
+   │ 
+   ├── Assets/  
+   │   ├── Lahore_2025-07-18.PNG  
+   │   └── Gilgit_2025-07-18.PNG  
+   │
+   ├── Data/ 
+   │   ├── Current_Data.xlsx         # Current weather conditions 
+   │   ├── Forecast_Day.xlsx         # 7-day forecast data
+   │   ├── Forecast_Hrs.xlsx         # Hourly forecast (not visualized)
+   │   └── Location.xlsx             # City metadata (IDs, coords)
+   │ 
+   ├── Weather_Dashboard.pbix        # Power BI report file 
+   └── README.md                     # Project documentation
 
 🧠 Features & Design Highlights
 
@@ -69,17 +69,17 @@ Initially powered by OpenWeatherMap API using free-tier access. Current version 
 
 🔧 How to Use
 
-Clone/download the repository.
+● Clone/download the repository.
 
-Open Weather_Dashboard.pbix in Power BI Desktop.
+● Open Weather_Dashboard.pbix in Power BI Desktop.
 
-Review and analyze weather insights by selecting different cities.
+● Review and analyze weather insights by selecting different cities.
 
-To re-enable real-time updates:
+● To re-enable real-time updates:
 
-Replace the Excel data sources with live API queries.
+● Replace the Excel data sources with live API queries.
 
-Use Power Query (M) to connect and transform incoming JSON.
+● Use Power Query (M) to connect and transform incoming JSON.
 
 📌 Notes
 
