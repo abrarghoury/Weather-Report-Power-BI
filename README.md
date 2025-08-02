@@ -27,35 +27,47 @@ It was originally designed to auto-refresh daily using API-based connections, an
 📁 Project Structure
 
 Weather_Report_PowerBI/
-│
-├── Assets/
-│   ├── Lahore_2025-07-18.PNG
-│   └── Gilgit_2025-07-18.PNG
-│
-├── Data/
-│   ├── Current_Data.xlsx         # Current weather conditions
-│   ├── Forecast_Day.xlsx         # 7-day forecast data
-│   ├── Forecast_Hrs.xlsx         # Hourly forecast (not visualized)
-│   └── Location.xlsx             # City metadata (IDs, coords)
-│
-├── Weather_Dashboard.pbix        # Power BI report file
-└── README.md                     # Project documentation
+  │
+  
+  ├── Assets/
+  
+  │   ├── Lahore_2025-07-18.PNG
+  
+  │   └── Gilgit_2025-07-18.PNG
+  
+  │
+
+  ├── Data/
+  
+  │   ├── Current_Data.xlsx         # Current weather conditions
+  
+  │   ├── Forecast_Day.xlsx         # 7-day forecast data
+
+  │   ├── Forecast_Hrs.xlsx         # Hourly forecast (not visualized)
+
+  │   └── Location.xlsx             # City metadata (IDs, coords)
+
+  │
+  
+  ├── Weather_Dashboard.pbix        # Power BI report file
+  
+  └── README.md                     # Project documentation
 
 🧠 Features & Design Highlights
 
-Dynamic API integration (historically enabled real-time updates).
+● Dynamic API integration (historically enabled real-time updates).
 
-Dark-themed modern UI for readability and clarity.
+● Dark-themed modern UI for readability and clarity.
 
-Custom AQI classification with color-coded indicators (Good, Moderate, Unhealthy).
+● Custom AQI classification with color-coded indicators (Good, Moderate, Unhealthy).
 
-Forecast trend lines using Power BI line charts.
+● Forecast trend lines using Power BI line charts.
 
-Rain probability bars with horizontal bar chart format.
+● Rain probability bars with horizontal bar chart format.
 
-Modular card visuals for temperature, wind, humidity, and visibility.
+● Modular card visuals for temperature, wind, humidity, and visibility.
 
-Built-in refresh scheduling when API was live.
+● Built-in refresh scheduling when API was live.
 
 📷 Screenshots
 
