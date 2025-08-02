@@ -24,9 +24,11 @@ This dashboard tracks and visualizes:
 
 It was originally designed to auto-refresh daily using API-based connections, and now presents archived weather data for demo/reference purposes.
 
-📁 Project Structure
+ 📁 Project Structure
 
+  
    📁 Weather_Report_PowerBI/
+   
    │ 
       📁 ├── Assets/
    
